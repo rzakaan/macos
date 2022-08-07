@@ -1,0 +1,6 @@
+git config --global alias.ss 'status -s'
+git config --global alias.lagd 'log --all --graph --decorate --oneline'
+git config --global alias.co 'checkout'
+git config --global alias.ci 'commit'
+git config --global alias.unstage 'reset HEAD --'
+git config --global alias.alias 'config --global --get-regexp alias'
