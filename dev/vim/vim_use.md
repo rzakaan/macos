@@ -4,43 +4,13 @@
 ctrl+g
 1 ctrl+g    full path
 
-
-## Navigation
-h   left
-j   down
-k   up
-l   right
-
-ctrl + f        forward a page
-ctrl + b        backward a page
-
-shift + arrow   move cursor word by word
-0               move top of the line 
-^               move the first non-empty character of the line
-$               move the cursor to the end of the line
-w               move forward one word (next alphanumeric word)
-W               move forward one word (delimeted by a white space) 
-b               move backward one word (previous alphanumeric word)
-B               move backward one word (delimited by a white space)
-
-gg              go to first line
-G               go to last line
-num gg          go to line num
-:num            go to line num
-
-[[   [m         previous section or method
-]]   ]m         next section or method
-{               previous paragraph
-}               next paragraph
-(               previous sentence
-)               next sentence
-
 ## Commands
 y               yank
 d               delete
 p               paste
 c               change
 r               replace
+g               global
 
 ## Visual
 v               visual mode per character
@@ -108,6 +78,11 @@ ctrl + wx   swap the position of the currently focused buffer with an inactive o
 ?           search document for text going backward
 n           next search
 N           prev search
+g           replace all occurrences in each line (not only the first one)
+c           ask you to confirm each substition
+i           ignore case sensitive
+I           case sensitive
+
  
 ## Bookmarks
 M a-z A-Z   set bookmark
@@ -163,6 +138,20 @@ call plug#end()
 :PlugUpgrade    upgrade vim-plug
 :PlugStatus     check plugins
 
+## G Keystrokes 
+gf              edit the file located at the filepath under your cursor
+gx              open the file located at the filepath under your cursor(use default applicationA)
+gi
+gv
+gn
+gI              
+ga              print the ascii value of the character under the cursor in dec, hex, octal
+gu              lower case using motion
+gU              upper case using motion
+ 
+ctrl+w ctrl+f   to open the file in a new window
+ctrl+a          increase number
+ctrl+x          decrease number
 
 ## Settings
 set title
