@@ -1,0 +1,27 @@
+# when use terminal
+start of the line > home  > ctrl + a  > alt + left
+end of the line   > end   > ctrl + e  > alt + right
+one character left  > ctrl + b
+one character right > ctrl + f
+delete > ctrl + k > fn + esc
+
+# move cursor word by word
+# selecting Profiles > Keyboard
+ALT + F     Forward by a word
+ALT + B     Backward by a word
+
+CTRL + A    go to the beginning of the line
+CTRL + E    go to end of the line
+CTRL + R    search previously
+CTRL + W    delete the word before cursor
+
+# Plugins dirhistory
+ALT + Left   previous dir
+ALT + Right  next dir
+ALT + Up     move into parent directory
+ALT + Down   move into first child dir
+
+
+
+
+

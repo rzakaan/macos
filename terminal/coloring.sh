@@ -3,6 +3,9 @@ if [[ $OSTYPE == 'darwin'* ]]; then
     ZPROFILE="/Users/$USER/.zprofile"
     echo "export CLICOLOR=1" >> $ZPROFILE
     echo "export LSCOLORS=GxFxCxDxBxegedabagaced" >> $ZPROFILE
+    
+    echo "MacOS Darwin detected"
+    echo "Terminal color set updating..."
 else
     # bash profile
     export TERM="xterm-color" 
