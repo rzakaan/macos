@@ -26,8 +26,10 @@
 | )  | next sentence
 
 ### Control Keys
-- ctrl + f        forward a page
-- ctrl + b        backward a page
+- ctrl + f        forward a screen
+- ctrl + b        backward a screen
+- ctrl + d        forward 1/2 a screen
+- ctrl + u        backward 1/2 a screen
 - shift + arrow   move cursor word by word
 
 ### Commands
