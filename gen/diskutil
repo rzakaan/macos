@@ -1,0 +1,13 @@
+# list disk
+diskutil list
+
+# list external device
+disktutil list external physical
+
+# format sd all volume
+diskutil eraseDisk FAT32 RASPBIAN MBRFormat <disk>
+
+# full zero out or randomize
+diskutil unmountDisk disk2
+diskutil zeroDisk disk2
+diskutil randomDisk disk2
